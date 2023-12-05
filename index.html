@@ -4,23 +4,6 @@
 	<title> Page Web de Nina Carducci</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Cache-Control" content="max-age=315360">
-	# BEGIN Cache-Control Headers
-<IfModule mod_headers.c>
-<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
-Header set Cache-Control "max-age=2592000, public"
-</FilesMatch>
-<FilesMatch "\.(js)$">
-Header set Cache-Control "max-age=2592000, private"
-</FilesMatch>
-<filesMatch "\.(html|htm)$">
-Header set Cache-Control "max-age=7200, public"
-</filesMatch>
-# Enleve le cache pour les ressources dynamiques
-<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-Header unset Cache-Control
-</FilesMatch>
-</IfModule>
-# END Cache-Control Headers
 	<meta name="description" content="Photographe professionnel spécialisé en portraits artistiques. Découvrez notre portfolio et réservez dès aujourd'hui.">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
