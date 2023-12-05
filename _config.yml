@@ -1,7 +1,0 @@
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      http_headers:
-        Cache-Control: "max-age=600"
