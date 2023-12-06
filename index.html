@@ -53,11 +53,14 @@
 		  <script>
 			// Attendre que la page et les ressources associées soient complètement chargées
 			window.addEventListener('load', function() {
-				// Sélectionner l'élément image par son ID
-				var image = document.getElementById('monImage');
+				// Sélectionner les éléments images par leurs IDs
+				var image1 = document.getElementById('image1');
+				var image2 = document.getElementById('image2');
+				var image3 = document.getElementById('image3');
 	
-				// Changer la source de l'image
-				image.src = './assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg';
+				// Changer la source des images après le chargement complet de la page
+				image2.src = './assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg';
+				image3.src = './assets/images/slider/edward-cisneros-3_h6-1NPDGg-unsplash.jpg';
 			});
 		</script>
 			
@@ -85,16 +88,16 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Image pour le Carousel">
+				<img id="image1" class="image-carousel d-block w-100" src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" alt="Image pour le Carousel">
 			</div>
 			<div class="carousel-item">
-				<img id="monImage" class="image-carousel" class="d-block w-100"  alt="Image pour le Carousel">
-
+				<img id="image2" class="image-carousel d-block w-100" src="./assets/images/slider/placeholder.jpg" alt="Image pour le Carousel">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Image pour le Carousel">
+				<img id="image3" class="image-carousel d-block w-100" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGg-unsplash.jpg" alt="Image pour le Carousel">
 			</div>
 		</div>
+	
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			<span class="visually-hidden">Previous</span>
