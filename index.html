@@ -50,7 +50,16 @@
 			  "datePublished": "2023-12-05"
 			}
 		  </script>
-				
+		  <script>
+			// Attendre que la page et les ressources associées soient complètement chargées
+			window.addEventListener('load', function() {
+				// Sélectionner l'élément image par son ID
+				var image = document.getElementById('monImage');
+	
+				// Changer la source de l'image
+				image.src = './assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg';
+			});
+		</script>
 			
 	  </head>
 <body>
@@ -79,7 +88,8 @@
 				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Image pour le Carousel">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Image pour le Carousel">
+				<img id="monImage" class="image-carousel" class="d-block w-100"  alt="Image pour le Carousel">
+
 			</div>
 			<div class="carousel-item">
 				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Image pour le Carousel">
