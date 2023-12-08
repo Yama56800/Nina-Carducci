@@ -106,8 +106,8 @@ img{
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #E5975F;
+	color: black;
+	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
