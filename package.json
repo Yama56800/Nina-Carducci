@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "purgecss": "^5.0.0"
+  },
+  "scripts": {
+    "purgecss": "purgecss --config ././assets/bootstrap/purgecss.config.js ./css/",
+    "build": "npm run purgecss && webpack --mode production"
   }
 }
