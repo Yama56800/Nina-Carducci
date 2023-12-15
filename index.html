@@ -4,7 +4,7 @@
 		<title> Page Web de Nina Carducci</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Cache-Control" content="max-age=315360">
-		<meta name="description" content="Photographe professionnel spécialisé en portraits artistiques. Découvrez notre portfolio et réservez dès aujourd'hui.">
+		<meta name="description" content="Photographe professionnel à Paris spécialisé en portraits artistiques. Découvrez notre portfolio et réservez dès aujourd'hui.">
 	  
 		<!-- Balises OpenGraph pour Facebook -->
 		<meta property="og:title" content="Page Web de Nina Carducci">
@@ -33,26 +33,46 @@
 		<!-- Balises de données structurées pour l'entreprise -->
 		<script type="application/ld+json">
 			{
-			  "@context": "https://schema.org",
-			  "@type": "Photographer",
-			  "name": "Nina Carducci",
-			  "url": "https://yama56800.github.io/Nina-Carducci/",
-			  "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"],
-			  "address": {
+				"@context": "https://schema.org",
+				  "@graph": [
+				  {
+				"@type": "Photographer",
+				"name": "Nina Carducci",
+				"url": "https://yama56800.github.io/Nina-Carducci/",
+				"sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"],
+				"address": {
 				"@type": "PostalAddress",
 				"addressLocality": "Paris",
 				"postalCode": "95000",
 				"addressCountry": "France",
 				"description": "Photographe à Paris dans le 95, intervient dans la région."
-			  },
-			  "image": "URL de l'image principale",
-			  "jobTitle": "Photographe professionnel spécialisé en portraits artistiques",
-			  "datePublished": "2023-12-05"
-			}
+				},
+				"image": "URL de l'image principale",
+				"jobTitle": "Photographe professionnel spécialisé en portraits artistiques",
+				"datePublished": "2023-12-05"
+				  }
+				]
+			  }
 			</script>
 				
 	  </head>
 <body>
+	<div itemscope itemtype="http://schema.org/Photograph">
+		<span itemprop="name">Nina Carducci Photographe</span>
+		
+		<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<span itemprop="streetAddress">3 rue des Jardins</span>
+			<span itemprop="addressLocality">Paris</span>,
+			<span itemprop="addressRegion">Île-de-France</span>
+			<span itemprop="postalCode">95000</span>
+		</div>
+		
+		<div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+			<meta itemprop="latitude" content="48.8566" />
+			<meta itemprop="longitude" content="2.3522" />
+		</div>
+	</div>
+	
 <div class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
@@ -189,7 +209,7 @@
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie à Paris. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
